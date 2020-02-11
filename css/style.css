@@ -5,6 +5,13 @@ p {margin: 0;}
 html,body{
  font-family: 'Open Sans', sans-serif;
 }
+button{
+	box-shadow: none!important;
+}
+input:focus{
+  box-shadow: 0 0 0 2px #aacf00!important;
+  border-color: #4d8900!important;
+}
 img{
   height: auto;
   width: auto;
@@ -238,17 +245,7 @@ border-bottom-left-radius:10px!important;
   border-top-left-radius:7px;
   border-bottom-left-radius:7px;
 }
-.btn{
-  vertical-align: middle;
-  line-height: 0.6;
-  
-  margin:0px;
-  min-width: 30px;
-  min-height: 30px;
-  border-top-right-radius:10px!important;
-  border-bottom-right-radius:10px!important;
 
-}
 .caret{
   font-size: 40px!important;
   text-align: center;
@@ -508,13 +505,7 @@ line-height: 1;
 .form-group-adv{
 	margin-bottom: 21px;
 }
-button{
-	box-shadow: none!important;
-}
-input:focus{
-  box-shadow: 0 0 0 2px #aacf00!important;
-  border-color: #4d8900!important;
-}
+
 .input-search-sm{
   height: 35px;
   width: 90px;
@@ -598,20 +589,53 @@ input:focus{
 
 	background-image: url("../img/slider2.jpg");
 }
-.glass {
-	margin-left:40px;
+.button_slider{
+	background-color: unset;
+    border-color: white;
+    color: white;
 }
-.glass-bottle{
+.left-col-slider{
+	margin-top: 80px;
+    margin-left: 164px;
+}
+.right-col-slider{
 	z-index: 1;
-	margin-left:40px;
+    margin-top: 20px;
+    margin-left: -54px;
+}
+.left-col-slider h2{
+	color: #ffffff;
+    font-size: 38px;
+    font-weight: bold;
+}
+.left-col-slider h2 span{
+	color: #7a9d59;
+    font-size: 44px;
+    font-weight: 100;
+    font-family: serif;
+}
+.percent{
+    font-size: 44px!important;
+    font-weight: 900!important;
+    
+}
+.left-col-slider p{
+	margin-bottom: 16px;
+    margin-top: -8px;
+    font-family: serif;
+    color: #cac4ad;
+    font-size: 10px;
+    
 }
 .slick-prev{
-	z-index: 1111;
-	left: 0!important;
+	margin-top: 8px;
+    z-index: 1111;
+    left: 4px!important;
 }
 .slick-next{
 	z-index: 1111;
-	right: 0!important;
+    right: 18px!important;
+    margin-top: 7px;
 }
  .slick-prev:before, .slick-next:before {
  	
@@ -621,9 +645,6 @@ input:focus{
 }
 .slick-prev:hover:before, .slick-next:hover:before{
     color: #749820!important;
-
-    
-   
 }
 .content{
   padding-right: 40px;
@@ -1103,8 +1124,8 @@ width: 1000px!important;
 
 /*lg*/
 .button_slider{
-    padding: 10px 16px;
-    font-size: 18px;
+    padding: 7px 14px;
+    font-size: 16px;
     border-radius: 6px;
 }
 }
